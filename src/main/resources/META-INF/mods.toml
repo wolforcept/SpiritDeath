@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+[[mods]]
+modId="spiritdeath"
+version="${file.jarVersion}" 
+displayName="Spirit Death"
+logoFile="examplemod.png" 
+credits="Wolforce" 
+authors="Wolforce"
+description='''
+Respawn near your corpse!
+'''
+[[dependencies.spiritdeath]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.spiritdeath]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
